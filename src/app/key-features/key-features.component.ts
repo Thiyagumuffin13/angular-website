@@ -13,7 +13,7 @@ export class KeyFeaturesComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log("---sd---",this.features.keyFeatures.value1)
+    
   }
 
 }
