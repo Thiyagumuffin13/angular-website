@@ -69,6 +69,30 @@ html {
     padding-top: 6px;
 }
 
+@media (max-width:992px){
+  .nav-close{
+    margin-left:55%;
+  }
+}
+
+@media (max-width:500px) and (min-width:300px){
+  .navBar-close{
+    margin-left: 25%;
+  }
+}
+.menu-active > a:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.menu-active a:hover {
+  color: #fff;
+}
+
+.menu-active a:before {
+  visibility: hidden;
+}
+
 .main-title {
   margin-top: 100px;
 }
